@@ -22,22 +22,28 @@ let package = Package(
   products: [
     .library(
       name: "DTExchangeAdapterTarget",
-      targets: ["DTExchangeAdapterTarget"]
+      targets: ["DTExchangeAdapterTarget", "DTExchangeSDK"]
     )
   ],
   targets: [
     .target(
       name: "DTExchangeAdapterTarget",
       dependencies: [
-        .target(name: "Adapter")
+        .target(name: "DTExchangeAdapter")
       ],
       path: "DTExchangeAdapterTarget"
     ),
     .binaryTarget(
-      name: "Adapter",
+      name: "DTExchangeAdapter",
       url:
         "https://dl.google.com/googleadmobadssdk/mediation/ios/dtexchange/DTExchangeAdapter-8.3.8.0.zip",
-      checksum: ""
+      checksum: "57e9dabf2c1caf607e304b60efb9155c037a7725e96458ad02d01c90b28531fa"
+    ),
+    .binaryTarget(
+      name: "DTExchangeSDK",
+      url:
+        "https://cdn2.inner-active.mobi/fmp-sdk/files/DTExchangeSDK-iOS-v8.3.8.zip",
+      checksum: "683d7a00eb21f1ebc6b7800b78918d25c6193150dcb0e00743a47027d623f689"
     ),
   ]
 )
