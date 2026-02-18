@@ -18,7 +18,7 @@ import PackageDescription
 
 let package = Package(
   name: "DTExchangeAdapter",
-  platforms: [.iOS(.v12)],
+  platforms: [.iOS(.v13)],
   products: [
     .library(
       name: "DTExchangeAdapterTarget",
@@ -28,7 +28,7 @@ let package = Package(
   dependencies: [
     .package(
       url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
-      from: "12.0.0"
+      from: "13.0.0"
     )
   ],
   targets: [
@@ -43,14 +43,14 @@ let package = Package(
     .binaryTarget(
       name: "DTExchangeAdapter",
       url:
-        "https://dl.google.com/googleadmobadssdk/mediation/ios/dtexchange/DTExchangeAdapter-8.3.8.0.zip",
-      checksum: "57e9dabf2c1caf607e304b60efb9155c037a7725e96458ad02d01c90b28531fa"
+        "https://dl.google.com/googleadmobadssdk/mediation/ios/dtexchange/DTExchangeAdapter-8.4.4.1.zip",
+      checksum: "f9ac9ca90a8b234f5e2e7e32112b7b5cad89773d8ff873004cb8ede073480a40"
     ),
     .binaryTarget(
       name: "DTExchangeSDK",
       url:
-        "https://cdn2.inner-active.mobi/fmp-sdk/files/DTExchangeSDK-iOS-v8.3.8.zip",
-      checksum: "683d7a00eb21f1ebc6b7800b78918d25c6193150dcb0e00743a47027d623f689"
+        "https://cdn2.inner-active.mobi/fmp-sdk/files/DTExchangeSDK-iOS-v8.4.4.zip",
+      checksum: "c436700a411c96736355219b2ddb1bd802eb5860c9ee73d09b2cfcdd63c77a53"
     ),
   ]
 )
