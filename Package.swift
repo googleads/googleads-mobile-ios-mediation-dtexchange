@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.6
 
 // Copyright 2025 Google LLC.
 //
@@ -22,12 +22,12 @@ let package = Package(
   products: [
     .library(
       name: "DTExchangeAdapterTarget",
-      targets: ["DTExchangeAdapterTarget", "DTExchangeSDK"]
+      targets: ["DTExchangeAdapterTarget"]
     )
   ],
   dependencies: [
     .package(
-      url: "https://github.com/inner-active/DTExchangeSDK-iOS-SPM",
+      url: "https://github.com/inner-active/DTExchangeSDK-iOS-SPM.git",
       exact: "8.4.5"
     ),
     .package(
