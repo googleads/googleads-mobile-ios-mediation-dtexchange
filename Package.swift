@@ -28,7 +28,7 @@ let package = Package(
   dependencies: [
     .package(
       url: "https://github.com/inner-active/DTExchangeSDK-iOS-SPM.git",
-      exact: "8.4.6"
+      exact: "8.4.7"
     ),
     .package(
       url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
@@ -48,7 +48,7 @@ let package = Package(
     .binaryTarget(
       name: "DTExchangeAdapter",
       url:
-        "https://dl.google.com/googleadmobadssdk/mediation/ios/dtexchange/DTExchangeAdapter-8.4.6.0.zip",
+        "https://dl.google.com/googleadmobadssdk/mediation/ios/dtexchange/DTExchangeAdapter-8.4.7.0.zip",
       checksum: "3d710b5c34046cd0f44829982c3c44a3c529169ed5024058639fc835229ec2d5"
     ),
   ]
