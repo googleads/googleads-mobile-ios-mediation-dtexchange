@@ -48,7 +48,7 @@ let package = Package(
     .binaryTarget(
       name: "DTExchangeAdapter",
       url:
-        "https://dl.google.com/googleadmobadssdk/mediation/ios/dtexchange/DTExchangeAdapter-8.4.7.0.zip",
+        "https://dl.google.com/googleadmobadssdk/mediation/ios/dtexchange/DTExchangeAdapter-8.4.7.1.zip",
       checksum: "829006100cfbc1aa8d55eae2ce5f24ccdb437d8ac6e71caec139198f7278724b"
     ),
   ]
