@@ -49,7 +49,7 @@ let package = Package(
       name: "DTExchangeAdapter",
       url:
         "https://dl.google.com/googleadmobadssdk/mediation/ios/dtexchange/DTExchangeAdapter-8.4.7.1.zip",
-      checksum: "829006100cfbc1aa8d55eae2ce5f24ccdb437d8ac6e71caec139198f7278724b"
+      checksum: "7855fc73266d6fb37ff45f32344d0c62a720ed7f5a4c409e36a993959661bd33"
     ),
   ]
 )
